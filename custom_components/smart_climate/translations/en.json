@@ -1,0 +1,31 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Indoor Configuration",
+        "data": {
+          "room_name": "Room Name",
+          "indoor_temp_sensors": "Indoor Temperature Sensors",
+          "indoor_humidity_sensors": "Indoor Humidity Sensors (Optional)",
+          "aggregation_method": "Aggregation Method"
+        }
+      },
+      "outdoor": {
+        "title": "Outdoor Data Source",
+        "data": {
+          "outdoor_source_type": "Outdoor Data Source",
+          "outdoor_temp_sensor": "Outdoor Temperature Sensor",
+          "outdoor_humidity_sensor": "Outdoor Humidity Sensor (Optional)",
+          "weather_entity": "Weather Entity"
+        }
+      },
+      "pc_monitor": {
+        "title": "PC Heat Warning",
+        "data": {
+          "pc_sensor": "PC Load/Temperature Sensor (Optional)",
+          "pc_threshold": "Room Temperature Threshold for Warning"
+        }
+      }
+    }
+  }
+}

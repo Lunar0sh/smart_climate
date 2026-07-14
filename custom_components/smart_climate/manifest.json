@@ -1,0 +1,12 @@
+{
+  "domain": "smart_climate",
+  "name": "Smart Room Climate",
+  "codeowners": ["@lunar"],
+  "config_flow": true,
+  "dependencies": ["weather", "sensor", "binary_sensor"],
+  "documentation": "https://github.com/yourrepo/smart_climate",
+  "iot_class": "local_calculated",
+  "issue_tracker": "https://github.com/yourrepo/smart_climate/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}
